@@ -1,0 +1,45 @@
+{
+  "name": "vibranium",
+  "version": "1.0.0",
+  "description": "Website for DSC SubSaharan Africa",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -w --display-max-modules 0",
+    "dev": "npx gulp watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinkamau/Vibranium.git"
+  },
+  "keywords": [
+    "dsc",
+    "unilag"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvinkamau/Vibranium/issues"
+  },
+  "homepage": "https://github.com/kelvinkamau/Vibranium/#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "autoprefixer": "^9.4.10",
+    "babel-core": "6.26.3",
+    "babel-loader": "8.0.5",
+    "babel-plugin-transform-util-promisify": "^0.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "postcss-loader": "^3.0.0",
+    "webpack": "^3.4.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "ionicons": "^4.6.3",
+    "owl.carousel": "^2.3.4"
+  }
+}
