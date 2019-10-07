@@ -16,6 +16,7 @@ node_js:
 
 before_script:
   - npm install
+  - npm run deploy
 
 script: npm run build
 
