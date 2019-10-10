@@ -9,7 +9,6 @@ before_script:
    - npm install
    - npm run build
 script:
-  - if [ "$TRAVIS_BRANCH" = "develop" ]; then ./ci/deploy.rb envdev.tld; fi
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then ./ci/deploy.rb envprod.tld; fi
+  - npm run deploy
 after_success:
   -
