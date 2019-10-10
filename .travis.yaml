@@ -13,6 +13,5 @@ before_script:
 script:
   - npm install
 after_success:
-  - npm run lint
-  - npm run test
+  - npm run build
 
