@@ -8,8 +8,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  background: red !important;
-  color: black;
+  background: #0A192F !important;
+  color: #f1f1f1;
 }
 
 :root {
