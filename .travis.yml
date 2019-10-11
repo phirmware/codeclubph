@@ -10,5 +10,4 @@ before_script:
 script:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
   - npm run build
 after_success:
-  - if [ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ]; then npm run build fi
-
+  - if [ $TRAVIS_BRANCH == "master" ]; then npm run build
