@@ -9,5 +9,7 @@ before_script:
   - npm install
 script:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
   - npm run build
+
+if: branch = master
 after_success:
   - npm run deploy
