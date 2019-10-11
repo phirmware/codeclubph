@@ -6,8 +6,8 @@ notifications:
   email: false 
 
 before_script:
-   - npm install
-   - npm run build
+  - npm install
+  - npm run build
 script:
   - npm run deploy
 after_success:
